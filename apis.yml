@@ -1,7 +1,27 @@
 aid: function-oncology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/function-oncology.png
 name: Function Oncology
-description: Function Oncology is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Function Oncology is a precision oncology company applying single-cell CRISPR
+  functional genomics to map cancer dependencies and identify and validate new
+  therapeutic targets. Backed by Andreessen Horowitz (a16z) Bio + Health, it was
+  added to the API Evangelist network as a portfolio-lead stub for enrichment.
+  As of this pass the company publishes no live public website, developer
+  portal, API documentation, OpenAPI, or SDKs — the primary domain resolves to
+  Google Workspace mail records only with no web A record — so no API artifacts
+  could be searched, fetched, or derived. This profile carries identity metadata
+  only until a public developer surface appears.
 url: https://raw.githubusercontent.com/api-evangelist/function-oncology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,32 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-web-presence: none
+x-web-presence-note: >-
+  functiononcology.com has Google Workspace MX records but no website A record
+  (no live site); function-oncology.com is a parked GoDaddy for-sale page;
+  .ai/.bio/.co variants do not resolve. No developer/API surface exists to
+  enrich as of 2026-07-19.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Oncology
+- Genomics
+- Biotechnology
+- Precision Medicine
+- Functional Genomics
+- CRISPR
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
