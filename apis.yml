@@ -35,7 +35,7 @@ x-web-presence-note: >-
   (no live site); function-oncology.com is a parked GoDaddy for-sale page;
   .ai/.bio/.co variants do not resolve. No developer/API surface exists to
   enrich as of 2026-07-19.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
